@@ -1,0 +1,63 @@
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 700px;
+    background: #020202;
+    margin-top: 106px;
+    font-family: 'poppins-regular';
+    font-size: 26px;
+    font-weight: 400;
+}
+.hr hr{
+   
+    margin-top: -30px;
+}
+.projectContainer h3{
+    margin-left: -100px;
+}
+.projectContainer hr{
+    width: 70px;
+    margin-left: 26px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    gap:100px;
+    padding-top: 50px;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+.cards .card{
+    width: 350px;
+    height: 300px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+}
+.cardContent p{
+    color: #040404;
+    font-family: 'poppins-regular';
+}
+.cardDetails{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cardDetails a{
+    color: #171515;
+    background: #fff;
+    width:20px;
+    height:20px;
+    border-radius: 100px;
+}
