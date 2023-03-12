@@ -137,25 +137,3 @@ header{
 .nav__item:hover::before{
   width:100%;
 }
-.iconsContainer {
-  display: inline-block;
-  margin-left: 60px;
-  margin-top: -752px;
-  position:absolute;
-}
-.iconsContainer a{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom:42px;
-  width:40px;
-  height:40px;
-  background-color: #414141;
-  border-radius: 100px;
-}
-.vl {
-  border-left: 2px solid #fff;
-  height: 150px;
-  margin-left: 20px;
-}

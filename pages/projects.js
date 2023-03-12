@@ -57,11 +57,12 @@ export default function Projects() {
   return (
 
     <>
-      <div className={styles.projectContainer}>
-        <div className={styles.hr}>
-          <h3>Work</h3>
-          <hr></hr>
-        </div>
+    <div className={styles.projectContainer}>
+            <div className={styles.hr}>
+              <h3>Work</h3>
+              <hr></hr>
+            </div>
+            </div>
         <div className={styles.cards}>
         {projects.map((project)=>{
           return(
@@ -84,7 +85,6 @@ export default function Projects() {
         )}
         )}
         </div>
-      </div>
     </>
   )
 }
