@@ -2,7 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 import Navitems from './Navitems'
 
-
 const MenuList = [
     {
         text:'Home',

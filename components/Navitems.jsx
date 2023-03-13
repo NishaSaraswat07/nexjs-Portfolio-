@@ -6,25 +6,9 @@ const Navitems = ({href,text,active}) => {
   return (
     <Link href={href} className={`nav__item ${active?"active":""}`}>
         
-            {text}
+      {text}
     
     </Link>
   )
 }
-
 export default Navitems
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
