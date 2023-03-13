@@ -16,35 +16,35 @@ export default function Projects() {
       title: 'Assignment-1',
       discription: 'A simple react project',
       img: first,
-      href: 'https://github.com/NishaSaraswat07/React-Assignment1.git',
+      href:'https://github.com/NishaSaraswat07/React-Assignment1.git',
     },
     {
       projectNo: 2,
       title: 'Assignment-2',
       discription: 'Node-DateTime: Assignments',
       img: second,
-      href: 'https://github.com/NishaSaraswat07/Nodejs-Assignment2.git',
+      href:'https://github.com/NishaSaraswat07/Nodejs-Assignment2.git',
     },
     {
       projectNo: 3,
       title: 'Assignment-3',
       discription: 'Random number generator',
       img: third,
-      href: 'https://github.com/NishaSaraswat07/week3-PersonalProject-.git',
+      href:'https://github.com/NishaSaraswat07/week3-PersonalProject-.git',
     },
     {
       projectNo: 4,
       title: 'Assignment-4',
       discription: 'API Assignment',
       img: fourth,
-      href: 'https://github.com/NishaSaraswat07/Assignment4-space-.git',
+      href:'https://github.com/NishaSaraswat07/Assignment4-space-.git',
     },
     {
       projectNo: 5,
       title: 'Assignment-5',
       discription: 'Portfolio made with Nextjs',
       img: fifth,
-      href: 'https://github.com/NishaSaraswat07/nexjs-Portfolio-.git',
+      href:'https://github.com/NishaSaraswat07/nexjs-Portfolio-.git',
     },
   ]);
 
@@ -58,7 +58,7 @@ export default function Projects() {
       </div>
       <div className={styles.cards}>
         {projects.map((project) =>{
-          (
+          return(
             <motion.div
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.8 }}
