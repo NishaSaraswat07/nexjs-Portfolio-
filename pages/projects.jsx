@@ -58,9 +58,9 @@ export default function Projects() {
       </div>
       <div className={styles.cards}>
         {projects.map((project) =>{
-          return(
+          return (
             <motion.div
-          whileHover={{ scale: 1.2 }}
+           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.8 }}
           style={{ x: 0 }}
           className={styles.card}
@@ -76,7 +76,8 @@ export default function Projects() {
                   <a href={project.href} alt="link to github" label="github" target="_blank"><FaGithubAlt /></a>
                 </div>
               </div>
-            </motion.div>)
+            </motion.div>
+          )
         }) }
       </div>
     </>

@@ -35,7 +35,7 @@
         "eol-last":"off",
         "react/jsx-props-no-spreading":"off",
         "react/prop-types":"off",
-        "jsx-filename-extension":"on"
+        "arrow-body-style":"off"
     }
 
 }
