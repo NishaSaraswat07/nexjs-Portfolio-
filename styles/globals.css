@@ -137,3 +137,13 @@ header{
 .nav__item:hover::before{
   width:100%;
 }
+.notfound{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #FFB800;
+  font-family: 'poppins-medium';
+  margin:130px
+}
